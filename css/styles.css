@@ -108,6 +108,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
+  padding: 24px 0 24px ;
 }
 
 .header-menu-list-one {
@@ -212,6 +213,9 @@ ul {
   padding: 120px 0;
 }
 
+.hidden {
+   visibility: hidden;
+}
 .content-info {
   display: flex;
   gap: 24px;
@@ -239,7 +243,7 @@ ul {
 
 .main-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .our-portfolio {
   color: #2e2f42;
@@ -261,9 +265,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   max-width: 162px;
-  margin: 0 auto;
-  margin-bottom: 72px;
-}
+ margin-bottom: 72px;
 
 .our-team-div {
   padding: 32px 0;
@@ -281,6 +283,7 @@ ul {
   margin-bottom: 120px;
   width: calc((100%-24px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
+  calc((100% - 72px) / 4);
 }
 .our-team-img {
   padding-bottom: 32px;
@@ -293,8 +296,8 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team-text {
