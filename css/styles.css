@@ -208,8 +208,6 @@ ul {
 .content-info {
   display: flex;
   gap: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .content-info-list {
