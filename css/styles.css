@@ -55,8 +55,7 @@ ul {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
   width: 1158px;
 }
@@ -176,7 +175,6 @@ ul {
 .main-button {
   background: #4d5ae5;
   color: #fff;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -256,14 +254,12 @@ ul {
 }
 
 .our-team-div {
-  padding: 32px 0;
 }
 
 .our-team {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .our-team-item {
@@ -310,7 +306,6 @@ ul {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 120px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -355,7 +350,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  padding-top: 100px;
   margin-bottom: 16px;
   display: inline-block;
 }
