@@ -153,9 +153,6 @@ ul {
 }
 
 .main {
-}
-
-.main-container {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -248,8 +245,6 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  max-width: 162px;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 
@@ -369,6 +364,5 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
   max-width: 264px;
 }
